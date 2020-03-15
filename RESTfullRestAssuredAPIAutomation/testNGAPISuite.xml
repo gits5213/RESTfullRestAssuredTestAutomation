@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Integration" verbose="1" >
+  <test name="IntegrationRegressionTest" >
+    <classes>
+       <class name="com.onetechi.RESTfullRestAssuredAPIAutomation.Tests.Get_ListOfUsers" />
+       <class name="com.onetechi.RESTfullRestAssuredAPIAutomation.Tests.POST_CreateUser" />
+    </classes>
+  </test>
+</suite>
